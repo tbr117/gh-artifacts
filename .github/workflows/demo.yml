@@ -41,6 +41,6 @@ jobs:
         with:
           name: website-build
       - name: Output contents
-        uses: ls
+        run: ls
       - name: Deploy
         run: echo "Deploying..."
